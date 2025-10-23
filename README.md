@@ -208,6 +208,59 @@ git log --oneline --graph
 ```
 
 ---
+## 👥 17. Clonar o Repositorio
+
+```bash
+git clone "https:/link_repositorio_fork"
+```
+> O clone é o processo de copiar um repositório remoto (como do GitHub) para o seu computador.
+
+---
+
+## 🗃️ 18. Adiciona Arquivos
+
+```bash
+echo "Seu texto aqui" > texto.txt
+git add texto.txt
+git add .
+```
+> echo - Cria um arquivo de texto.
+
+> add - É um arquivo específico deve ser incluído no próximo commit (salvamento). Ou seja, você está marcando o arquivo para ser salvo.
+
+> add . - Adiciona todos os arquivos modificados, criados ou deletados da pasta atual para o próximo commit.
+
+---
+
+## 📃 19. Criar um Commit
+
+```bash
+git commit -m "feat: Adiciona documentacao sobre integracao e colaboracao"
+```
+> É usado para salvar as alterações feitas nos arquivos de um projeto dentro do repositório Git. Antes de fazer o ```commit```, é preciso usar o ```git add``` para escolher quais arquivos serão incluídos.
+Cada commit deve ter uma mensagem descritiva, explicando brevemente o que foi alterado.
+
+---
+
+## 📤 20. Enviar para o Fork no GitHub
+```bash
+git push
+ou
+git push origin documentacao-colaboracao
+```
+> Envia as alterações feitas no repositório local para o repositório remoto, como o GitHub.
+
+---
+
+## 👩‍💻 Adição de colaboradores ao repositório
+## 🤖 GitFluence
+O GitFluence é uma plataforma online que permite analisar e visualizar a atividade de repositórios Git, mostrando quem fez alterações, 
+histórico de commits e evolução das branches. É útil para acompanhar projetos colaborativos e organizar o trabalho da equipe.
+
+```bash
+git commit -m "Adiciona a função de login do usuário"
+git push origin main
+```
 
 ## 📘 Créditos
 
